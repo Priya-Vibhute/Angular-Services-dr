@@ -1,0 +1,6 @@
+<h4>User Data : {{user.id}}  {{user.name}}  {{user.age}}</h4>
+<p class="border border-dark p-5 m-3" *ngFor="let u of allUsers">
+    {{u.id}}  {{u.name}}  {{u.age}}
+</p>
+
+<button class="btn btn-primary" (click)="getUser(101)">Click</button>
